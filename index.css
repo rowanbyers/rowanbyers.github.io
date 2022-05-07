@@ -2,7 +2,7 @@ body {
     background-color: rgb(34, 34, 34);
     color: #ecfafc;
     font-family: Arial, Helvetica, sans-serif;
-    max-width: 900px;
+    max-width: 1200px;
 }
 nav {
     display: flex;
@@ -19,6 +19,7 @@ nav {
     margin-left: auto;
     align-items: center;
     list-style-type: none;
+    margin-right: 19%;
 }
 
 .navBarItems li {
@@ -40,13 +41,30 @@ h2 {
     grid-template-columns: 1fr 1fr;
     margin: 15px;
     padding: auto;
-    column-gap: 25px;
+    column-gap: 13%;
+    margin-left: 9%
 }
 
 .tenor-gif-embed {
     max-width: 400px;
 }
 
+#picture {
+    max-width: 500px;
+}
+
 footer{
     text-align: center;
+    font-size: x-large;
+    font-family: fantasy;
+    padding: 1em;
+}
+
+footer p {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#skills, #projects {
+    margin-left: 50px;
 }
