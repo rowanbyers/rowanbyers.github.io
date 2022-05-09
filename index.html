@@ -13,10 +13,10 @@
             <img src="./Resources/RGB-logo.png">
         </div>
         <ul class="navBarItems">
-                <li><a href="#bio">Bio</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="./contact.html">Contact</a></li>
+                <li id="navBarItem"><a href="#bio">Bio</a></li>
+                <li id="navBarItem"><a href="#skills">Skills</a></li>
+                <li id="navBarItem"><a href="#projects">Projects</a></li>
+                <li id="navBarItem"><a href="./contact.html">Contact</a></li>
         </ul>
     </nav>
     <main>
@@ -32,21 +32,23 @@
         <div id="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Poop at least 5 times every morning</li>
-                <li>Scroll Twitter, Never Post</li>
-                <li>Smoke Weed</li>
-                <li>Javascript</li>
+                <li id="skillItem">Poop at least 5 times every morning</li>
+                <li id="skillItem">Scroll Twitter, Never Post</li>
+                <li id="skillItem">Smoke Weed</li>
+                <li id="skillItem">Javascript</li>
             </ul>
         </div>    
         <div id="projects">
             <h2>Projects</h2>
             <p>nothing to see here :)</p>
-            <script src="/index.js"></script>
+            <img id="explosion" src="./resources/gif-explosion.gif" hidden>
+            <button id="doomButton">DOOM</button>
         </div> 
     </main>
     <footer>
         <a href="./contact.html" id="button">Contact</a>
         <p>shit out in May 2022 for codecademy portfolio challenge</p>
     </footer>
+    <script src="./index.js"></script>
   </body>
 </html>

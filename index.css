@@ -1,3 +1,7 @@
+a:hover {
+    font-size: larger;
+    color: #ecfafc;
+}
 body {
     background-color: rgb(34, 34, 34);
     color: #ecfafc;
@@ -9,17 +13,14 @@ nav {
     align-items: center;
     padding: 15px,
 }
-.logo {
+#logo {
     box-align: right;
 }
 .navBarItems {
     display: flex;
-    padding: 15;
-    margin: 15;
     margin-left: auto;
     align-items: center;
     list-style-type: none;
-    margin-right: 19%;
 }
 
 .navBarItems li {
@@ -67,4 +68,50 @@ footer p {
 
 #skills, #projects {
     margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        max-width: 400px;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    nav #logo img {
+        max-width: 200px;
+        margin-top: 30px;
+    }
+    nav a {
+        font-size: large;
+    }
+    .navBarItems li {
+        padding: 2%;
+    }
+    #picture img{
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    body {
+        max-width: 500px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-right: 0%;
+        margin-left: 0%;
+    }
+    nav #logo img {
+        max-width: 300px;
+        margin-top: 30px;
+    }
+    .navBarItems {
+        margin-left: 20px;
+    }
 }
