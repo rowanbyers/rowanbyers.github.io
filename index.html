@@ -10,7 +10,8 @@
   <body>
     <nav>
         <div id="logo">
-            <img src="./Resources/RGB-logo.png">
+            <img id="rgb" src="./Resources/RGB-logo.png">
+            <img id="logoExplosion" src="./Resources/gif-explosion.gif" hidden>
         </div>
         <ul class="navBarItems">
                 <li id="navBarItem"><a href="#bio">Bio</a></li>
@@ -21,9 +22,14 @@
     </nav>
     <main>
         <div class="container">
-        <div id="bio">
+        <div id="bioSplash">
             <h1>Rowan Byers</h1>
-            <p> Gosh I don't really know what to say because I don't really have a lot of self esteem. I don't do good work, pay attention or process new information or ideas well. I often think of suicide. I was so miserable at my last job that I decided to just walk off, so don't assign me anything that might break my little snowflake spirit. I need to be coddeled and constantly supervised but I'll also be resentful of anyone who has more power or talent then me. I'm not attractive enough to be a model (plus my face is red a lot of the time) but I am attractive enough to have an overblown sense of self worth that when not reflected back to me in clear praise, withers like a leaf in fall.</p>
+            <p>Don't Read Me.</p>
+            <button id="bioButton">BIO</button>
+        </div>
+        <div id="bio" hidden>
+            <h1>Rowan Byers</h1>
+            <p> Gosh I don't really know what to say because I don't really have a lot of self esteem. I don't do good work, pay attention or process new information or ideas well. I often think of suicide. I was so miserable at my last job that I decided to just walk off, so don't assign me anything that might break my little snowflake spirit. I need to be coddeled and constantly supervised but I'll also be resentful of anyone who has more power or talent then me. I'm not attractive enough to be a model (plus my face is red a lot of the time) but I am attractive enough to have an overblown sense of self worth that when not reflected back to me in clear praise, withers like a leaf in fall. I dream of falling into a black hole. I would blissfully submit to the new world order and plug IV drugs into my arm and relax inside a coffin sized pod with a vr headset and a vibratory suck n fuck machine for maximum pleasure and derangement. We can only worship death now. The end is neigh. The four horsemen of the apocolpyse ride. Bitcoin is a false god and will not save us. Gold, silver, oil & guns are alll flase gods. Family and society are illusions, the only truth is the mediated feed of social media hahahahahahhaa </p>
             <br>
             <p> TLDR; I don't like myself, I don't like you, don't hire me.</p>
         </div>    
@@ -41,9 +47,10 @@
         <div id="projects">
             <h2>Projects</h2>
             <p>nothing to see here :)</p>
-            <img id="explosion" src="./resources/gif-explosion.gif" hidden>
-            <button id="doomButton">DOOM</button>
+            
+            <button id="doomButton">DOOM</button> 
         </div> 
+        <img id="explosion" src="./resources/gif-explosion.gif" hidden>  
     </main>
     <footer>
         <a href="./contact.html" id="button">Contact</a>
